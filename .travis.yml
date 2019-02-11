@@ -9,6 +9,6 @@ cache:
   directories:
   - node_modules
 before_script:
-- npm install -g web-component-tester
+- npm install -g polymer-cli
 script:
-- xvfb-run ./node_modules/.bin/wct --configFile wct.conf.json
+- xvfb-run ./node_modules/.bin/polymer test --configFile wct.conf.json
