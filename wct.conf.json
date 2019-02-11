@@ -5,6 +5,7 @@
       "browsers": ["chrome"]
     },
     "istanbub": {
+      "isComponentRequestOverride": true,
       "dir": "./coverage",
       "reporters": ["text-summary", "lcov"],
       "include": [

@@ -3,7 +3,7 @@
   "main": "istanbub-issue-demo.js",
   "dependencies": {
     "@polymer/polymer": "^3.0.0",
-    "wct-istanbub": "^0.2.8"
+    "wct-istanbub": "git+https://github.com/Bubbit/wct-istanbub.git#override-component-request"
   },
   "devDependencies": {
     "@polymer/iron-demo-helpers": "^3.0.0-pre.19",
