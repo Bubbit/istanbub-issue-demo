@@ -9,6 +9,6 @@ cache:
   directories:
   - node_modules
 before_script:
-- npm install -g polymer-cli
+- npm install polymer-cli
 script:
-- xvfb-run polymer test
+- xvfb-run ./node_modules/.bin/polymer test
